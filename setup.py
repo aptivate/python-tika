@@ -11,7 +11,7 @@ options = {
     'version': '1.0',
     'reserved': ('asm',),
     'classes': ('java.io.File', 'java.io.FileInputStream',
-        'java.io.StringBufferInputStream', 'log4j.properties'),
+        'java.io.StringBufferInputStream'),
 }
 
 import sys
