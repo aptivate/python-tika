@@ -3,14 +3,15 @@ import sys
 from jcc import cpp
 
 options = {
-    'include': ('org.eclipse.osgi.jar', 'tika-app-1.0.jar',),
+    'include': ('org.eclipse.osgi.jar', 'tika-app-1.0.jar',
+        'log4j.properties.jar'),
     'jar': ('tika-parsers-1.0.jar', 'tika-core-1.0.jar',),
     'package': ('org.xml.sax',),
     'python': 'tika',
     'version': '1.0',
     'reserved': ('asm',),
     'classes': ('java.io.File', 'java.io.FileInputStream',
-        'java.io.StringBufferInputStream',),
+        'java.io.StringBufferInputStream', 'log4j.properties'),
 }
 
 import sys
