@@ -15,8 +15,6 @@
  * limitations under the License.
  */
 
-package org.apache.tika.server;
-
 import java.io.IOException;
 import java.util.Properties;
 
@@ -38,7 +36,7 @@ import com.sun.jersey.spi.container.servlet.ServletContainer;
 
 public class TikaServiceWinRun4J implements Service
 {
-	private static final Log logger = LogFactory.getLog(TikaServerCli.class);
+	private static final Log logger = LogFactory.getLog(TikaServiceWinRun4J.class);
 	public static final int DEFAULT_PORT = 9998;
 	private Server server;
 
