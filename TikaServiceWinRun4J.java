@@ -113,5 +113,11 @@ public class TikaServiceWinRun4J implements Service
         }
         return 0;
     }
-	
+
+    public static void main(String [] args)
+    {
+    	System.err.println("This class can only be run as a Windows " +
+    			"service with WinRun4J");
+    	System.exit(2);
+    }
 }
