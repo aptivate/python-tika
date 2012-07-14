@@ -9,9 +9,9 @@ options = {
     'package': ('org.xml.sax',),
     'python': 'tika',
     'version': '1.1',
+    'module': 'parser',
     'reserved': ('asm',),
-    'classes': ('java.io.File', 'java.io.FileInputStream',
-        'java.io.StringBufferInputStream'),
+    'classes': ('java.io.File', 'java.io.FileInputStream', 'java.io.ByteArrayInputStream'),
 }
 
 import sys
