@@ -18,7 +18,7 @@ To use the `AutoDetectParser`,
 
 	from tika import parser
    
-	print parser.from_buffer("<html><body>Hello World</body></html>
+	print parser.from_buffer("<html><body>Hello World</body></html>")
 	# Or directly from a file, 
 	# print parser.from_file("/tmp/foo.doc")
    
