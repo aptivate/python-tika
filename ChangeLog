@@ -1,0 +1,11 @@
+2012-07-14  Sudharshan S  <sudharsh@gmail.com>
+
+	* v1.1: Bump up tika version to 1.1
+	Reorganize directories.
+	* setup.py: StringBufferInputStream with ByteArrayInputStream.
+	StringBufferInputStream is deprecated and didn't work with raw binary strings.
+	* parser: Add a parser module with from_file and from_buffer functions
+
+
+
+
